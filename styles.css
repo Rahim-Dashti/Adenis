@@ -48,8 +48,12 @@ li {
 .left-info {
     display: flex;
     flex-direction: column;
-    margin-right: 200px;
+    margin: auto;
 
+}
+
+.right-img {
+    margin: auto;
 }
 
 .info-text {
@@ -67,9 +71,6 @@ li {
     width: 300px;
 }
 
-.right-img {
-    margin: auto;
-}
 
 button {
     font-family: sans-serif;
@@ -79,4 +80,105 @@ button {
     padding: 8px;
     color: #f9faf8;
     font-size: 18px;
+}
+
+.third {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.third-lower-list{
+    padding: 20px 0px;
+    display: flex;
+}
+
+.third-lower-list img {
+    width : 150px;
+    height: 150px;
+    border-radius: 8px;
+    border: 5px solid dodgerblue;
+}
+
+.third-lower-list{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+
+.third-lower-list div {
+    padding: 10px 0px;
+    width: 150px;
+    text-align: center;
+}
+
+.third-lower-list li {
+    padding: 10px 20px;
+}
+
+.third-upper {
+    margin: auto;
+    padding-top: 40px ;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.fourth {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    padding: 50px;
+}
+
+.fourth-upper {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 250;
+    width: 750px;
+    margin: auto;
+}
+
+.fourth-lower {
+    margin: auto;
+    font-weight: 800;
+    padding-left: 550px;
+}
+
+.fifth {
+    display: flex;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    margin: 100px auto;
+    width: 800px;
+    border-radius: 10px;
+    padding: 50px 100px;
+}
+
+.fifth-left {
+    padding-right: 200px;
+}
+.fifth div {
+    margin: auto;
+}
+
+.fifth button {
+    border: 2px solid white;
+    padding: 6px 25px;
+}
+
+.fifth-left-up {
+    font-weight: 800;
+    color: white;
+}
+
+
+.sixth {
+    background-color: #1F2937;
+    color: #e5e7eb;
+    padding: 20px;
+    display: flex;
+}
+
+.sixth-text {
+    margin: auto;
 }
